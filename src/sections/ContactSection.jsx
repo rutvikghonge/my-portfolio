@@ -100,10 +100,10 @@ const ContactSection = () => {
                                 <a href="https://github.com/Rutvik" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
                                     <FiGithub size={20} />
                                 </a>
-                                <a href="https://linkedin.com/in/Rutvik" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors">
+                                <a href="https://www.linkedin.com/in/rutvik-ghonge/" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors">
                                     <FiLinkedin size={20} />
                                 </a>
-                                <a href="https://wa.me/YourPhoneNumber" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-green-500 hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors">
+                                <a href="https://wa.me/919359859502" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-green-500 hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors">
                                     <FaWhatsapp size={20} />
                                 </a>
                             </div>

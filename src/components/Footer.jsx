@@ -19,11 +19,11 @@ const Footer = () => {
                             <FiGithub size={24} />
                             <span className="sr-only">GitHub</span>
                         </a>
-                        <a href="https://linkedin.com/in/Rutvik" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                        <a href="https://www.linkedin.com/in/rutvik-ghonge/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                             <FiLinkedin size={24} />
                             <span className="sr-only">LinkedIn</span>
                         </a>
-                        <a href="https://wa.me/YourPhoneNumber" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 dark:hover:text-green-400 transition-colors">
+                        <a href="https://wa.me/919359859502" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 dark:hover:text-green-400 transition-colors">
                             <FaWhatsapp size={24} />
                             <span className="sr-only">WhatsApp</span>
                         </a>
