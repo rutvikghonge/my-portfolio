@@ -27,7 +27,7 @@ const Footer = () => {
                             <FaWhatsapp size={24} />
                             <span className="sr-only">WhatsApp</span>
                         </a>
-                        <a href="mailto:your.email@example.com" className="text-gray-500 hover:text-red-500 dark:hover:text-red-400 transition-colors">
+                        <a href="mailto:rutvikghonge@gmail.com" className="text-gray-500 hover:text-red-500 dark:hover:text-red-400 transition-colors">
                             <FiMail size={24} />
                             <span className="sr-only">Email</span>
                         </a>
