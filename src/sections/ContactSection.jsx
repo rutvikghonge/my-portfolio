@@ -80,7 +80,7 @@ const ContactSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h3>
-                                <p className="text-gray-600 dark:text-gray-400 mt-1">rutvikghonge@gmail.com</p>
+                                <p className="text-gray-600 dark:text-gray-400 mt-1">your.email@example.com</p>
                             </div>
                         </div>
 
@@ -121,22 +121,22 @@ const ContactSection = () => {
                         <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <label htmlFor="user_name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Name</label>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Name</label>
                                     <input
                                         type="text"
-                                        name="user_name"
-                                        id="user_name"
+                                        name="name"
+                                        id="name"
                                         required
                                         className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                                         placeholder="John Doe"
                                     />
                                 </div>
                                 <div>
-                                    <label htmlFor="user_email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email</label>
+                                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Email</label>
                                     <input
                                         type="email"
-                                        name="user_email"
-                                        id="user_email"
+                                        name="email"
+                                        id="email"
                                         required
                                         className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
                                         placeholder="john@example.com"
