@@ -26,8 +26,8 @@ const AboutSection = () => {
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.6 }}
                     >
-                        <div className="aspect-square bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center relative group">
-                            <img src={profileImage} alt="Rutvik Ghonge" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <div className="aspect-[3/4] max-w-sm mx-auto bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center relative group">
+                            <img src={profileImage} alt="Rutvik Ghonge" className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105" />
                             <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
                     </motion.div>
