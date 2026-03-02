@@ -15,7 +15,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="flex space-x-6">
-                        <a href="https://github.com/Rutvik" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
+                        <a href="https://github.com/rutvikghonge" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-900 dark:hover:text-white transition-colors">
                             <FiGithub size={24} />
                             <span className="sr-only">GitHub</span>
                         </a>
@@ -23,11 +23,18 @@ const Footer = () => {
                             <FiLinkedin size={24} />
                             <span className="sr-only">LinkedIn</span>
                         </a>
-                        <a href="https://wa.me/919359859502" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-green-500 dark:hover:text-green-400 transition-colors">
+                        <a
+                            href={`https://wa.me/919359859502?text=${encodeURIComponent(
+                                "Hi Rutvik, I visited your portfolio and would like to connect with you."
+                            )}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-500 hover:text-green-500 dark:hover:text-green-400 transition-colors"
+                        >
                             <FaWhatsapp size={24} />
                             <span className="sr-only">WhatsApp</span>
                         </a>
-                        <a href="mailto:your.email@example.com" className="text-gray-500 hover:text-red-500 dark:hover:text-red-400 transition-colors">
+                        <a href="mailto:rutvikghonge@gmail.com" className="text-gray-500 hover:text-red-500 dark:hover:text-red-400 transition-colors">
                             <FiMail size={24} />
                             <span className="sr-only">Email</span>
                         </a>
