@@ -90,7 +90,7 @@ const ContactSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Location</h3>
-                                <p className="text-gray-600 dark:text-gray-400 mt-1">City, Country</p>
+                                <p className="text-gray-600 dark:text-gray-400 mt-1">Pune, Maharashtra, India</p>
                             </div>
                         </div>
 
