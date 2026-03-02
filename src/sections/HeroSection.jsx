@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImage from '../assets/rutvik_passport.jpg';
 
 const HeroSection = () => {
     return (
@@ -12,9 +13,8 @@ const HeroSection = () => {
                     transition={{ duration: 0.5 }}
                     className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-tr from-blue-500 to-purple-500 mb-8 p-1"
                 >
-                    <div className="w-full h-full bg-gray-200 dark:bg-gray-800 rounded-full flex items-center justify-center text-4xl overflow-hidden">
-                        {/* Replace with your image */}
-                        <span className="text-6xl">👨‍💻</span>
+                    <div className="w-full h-full bg-gray-200 dark:bg-gray-800 rounded-full flex items-center justify-center overflow-hidden border-4 border-white dark:border-gray-800 shadow-inner">
+                        <img src={profileImage} alt="Rutvik Ghonge" className="w-full h-full object-cover" />
                     </div>
                 </motion.div>
 

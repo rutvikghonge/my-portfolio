@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profileImage from '../assets/rutvik_passport.jpg';
 
 const AboutSection = () => {
     return (
@@ -25,9 +26,9 @@ const AboutSection = () => {
                         viewport={{ once: true, margin: "-100px" }}
                         transition={{ duration: 0.6 }}
                     >
-                        {/* Displaying an illustration or photo placeholder here */}
-                        <div className="aspect-square bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center">
-                            <span className="text-gray-400 dark:text-gray-500 text-6xl">📸 Photo</span>
+                        <div className="aspect-square bg-gray-200 dark:bg-gray-700 rounded-2xl overflow-hidden shadow-xl flex items-center justify-center relative group">
+                            <img src={profileImage} alt="Rutvik Ghonge" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                            <div className="absolute inset-0 bg-blue-600/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
                     </motion.div>
 
