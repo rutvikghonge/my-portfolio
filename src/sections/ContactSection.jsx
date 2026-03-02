@@ -80,7 +80,7 @@ const ContactSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h3>
-                                <p className="text-gray-600 dark:text-gray-400 mt-1">your.email@example.com</p>
+                                <p className="text-gray-600 dark:text-gray-400 mt-1">rutvikghonge@gmail.com</p>
                             </div>
                         </div>
 
@@ -97,13 +97,13 @@ const ContactSection = () => {
                         <div className="pt-8 border-t border-gray-200 dark:border-gray-700">
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Connect with me</h3>
                             <div className="flex space-x-4">
-                                <a href="https://github.com/Rutvik" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
+                                <a href="https://github.com/rutvikghonge" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-700 transition-colors">
                                     <FiGithub size={20} />
                                 </a>
                                 <a href="https://www.linkedin.com/in/rutvik-ghonge/" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 hover:bg-blue-100 dark:hover:bg-blue-900/40 transition-colors">
                                     <FiLinkedin size={20} />
                                 </a>
-                                <a href="https://wa.me/919359859502" target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-green-500 hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors">
+                                <a href={`https://wa.me/919359859502?text=${encodeURIComponent("Hi Rutvik, I visited your portfolio and would like to connect with you.")}`} target="_blank" rel="noopener noreferrer" className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full text-gray-700 dark:text-gray-300 hover:text-green-500 hover:bg-green-100 dark:hover:bg-green-900/40 transition-colors">
                                     <FaWhatsapp size={20} />
                                 </a>
                             </div>
