@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import { FiMail, FiMapPin, FiGithub, FiLinkedin } from 'react-icons/fi';
+import { FiMail, FiMapPin, FiGithub, FiLinkedin, FiPhone } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const ContactSection = () => {
@@ -80,7 +80,21 @@ const ContactSection = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Email</h3>
-                                <p className="text-gray-600 dark:text-gray-400 mt-1">rutvikghonge@gmail.com</p>
+                                <a href="mailto:rutvikghonge@gmail.com" className="text-gray-600 dark:text-gray-400 mt-1 hover:text-blue-600 dark:hover:text-blue-400 transition-colors block">
+                                    rutvikghonge@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div className="flex items-start space-x-4">
+                            <div className="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-xl text-blue-600 dark:text-blue-400">
+                                <FiPhone size={24} />
+                            </div>
+                            <div>
+                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Phone</h3>
+                                <a href="tel:+919359859502" className="text-gray-600 dark:text-gray-400 mt-1 hover:text-blue-600 dark:hover:text-blue-400 transition-colors block">
+                                    +91 9359859502
+                                </a>
                             </div>
                         </div>
 
