@@ -4,12 +4,11 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 
 const projects = [
     {
-        title: 'Todo List App',
-        description: 'A Full-stack MERN Todo Application that allows users to seamlessly manage their daily tasks. Features include adding, editing, deleting tasks, marking them as complete, and robust persistent storage.',
-        image: 'https://placehold.co/600x400/2563eb/ffffff?text=Todo+App',
-        tags: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Tailwind CSS'],
-        githubLink: 'https://github.com/Rutvik/todo-app',
-        liveLink: 'https://todo-app-demo.vercel.app',
+        title: 'CRUD API with Node.js & PostgreSQL',
+        description: 'A RESTful API built with Node.js, Express, and PostgreSQL for robust CRUD operations.',
+        image: 'https://placehold.co/600x400/2563eb/ffffff?text=Node+Postgres+API',
+        tags: ['Node.js', 'Express.js', 'PostgreSQL'],
+        githubLink: 'https://github.com/rutvikghonge/CURDNODEJSWithPOSTGRES/tree/main',
     },
     // Add more projects here
 ];
@@ -75,15 +74,17 @@ const ProjectsSection = () => {
                                         <FiGithub size={20} />
                                         <span className="font-medium">Code</span>
                                     </a>
-                                    <a
-                                        href={project.liveLink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                                    >
-                                        <FiExternalLink size={20} />
-                                        <span className="font-medium">Live Demo</span>
-                                    </a>
+                                    {project.liveLink && (
+                                        <a
+                                            href={project.liveLink}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+                                        >
+                                            <FiExternalLink size={20} />
+                                            <span className="font-medium">Live Demo</span>
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         </motion.div>
