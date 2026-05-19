@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiPhone } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
@@ -37,6 +37,10 @@ const Footer = () => {
                         <a href="mailto:rutvikghonge@gmail.com" className="text-gray-500 hover:text-red-500 dark:hover:text-red-400 transition-colors">
                             <FiMail size={24} />
                             <span className="sr-only">Email</span>
+                        </a>
+                        <a href="tel:+919359859502" className="text-gray-500 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+                            <FiPhone size={24} />
+                            <span className="sr-only">Phone</span>
                         </a>
                     </div>
                 </div>
